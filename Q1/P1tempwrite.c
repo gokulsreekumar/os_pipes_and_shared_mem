@@ -23,9 +23,7 @@ int main() {
         if(write(fd, &temp[i], sizeof(double))==-1) {
             return 2;
         }
-        printf("writing!\n");
     }
-    printf("Writing P1 Data Over\n");
     close(fd);
 
     int cats[5];

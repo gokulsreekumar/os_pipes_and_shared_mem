@@ -21,7 +21,6 @@ int main() {
         if(read(fd, &arr[i], sizeof(double))==-1) {
             return 2;
         }
-        printf("Reading!\n");
     }
     printf("Reading from P1 Over!\n");
     close(fd);
@@ -39,15 +38,12 @@ int main() {
     // write avg and sd
     write(fd1, &avg, sizeof(double));
     write(fd1, &sd, sizeof(double));
-    printf("Writing P2 Data.....\n");
-    printf("Written avg = %lf, sd = %lf\n", avg, sd);
     //write p1_data
     for(i=0; i<5; i++) {
         if(write(fd1, &arr[i], sizeof(double))==-1) {
             return 2;
         }
     }
-    printf("Written Temprature Array from P1\n");
     printf("P2 Data Written!\n");
     close(fd1);
     return 0;

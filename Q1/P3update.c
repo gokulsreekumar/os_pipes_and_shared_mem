@@ -27,7 +27,6 @@ int main() {
             return 2;
         }
     }
-    printf("Reading Data from P2 Over!\n");
     close(fd);
     int avg = arr[0];
     int sd = arr[1];
