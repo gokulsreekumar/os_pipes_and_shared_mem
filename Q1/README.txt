@@ -1,12 +1,12 @@
-# Q1 README
+#Q1 README
 
-# Contents
+#Contents
 
-## files
+##files
 
-* P1tempwrite.c
-* P2avgsd.c
-* P3update.c
+*P1tempwrite.c
+*P2avgsd.c
+*P3update.c
 
-* unnamed.c
+*unnamed.c
 
