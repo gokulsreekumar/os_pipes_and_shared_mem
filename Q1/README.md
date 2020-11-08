@@ -4,10 +4,17 @@
 
 ## Using FIFO (Named Pipes)
 
-* P1tempwrite.c
-* P2avgsd.c
-* P3update.c
+1. P1tempwrite.c
+2. P2avgsd.c
+3. P3update.c
 
 ## Using Unnamed Pipes 
 
-* unnamed.c
+1. unnamed.c
+
+
+# Instructions
+
+## 1. Using FIF0
+
+1. Run /code mkfifo() code/
